@@ -3,7 +3,7 @@ This project is an image classification project using a deep-learning based on C
 The Dogs vs. Cats is a classic problem for anyone who wants to dive deeper into deep-learning.  
 
 
-
+# The full project in "master" branch
  
  
  ## Model predictions visualized :
@@ -33,3 +33,4 @@ The Dogs vs. Cats is a classic problem for anyone who wants to dive deeper into 
 
 # How to use trained model with tkinter
 First of all go to "Tkinter_for_test" folder and find "gui.py". If you will run gui.py, you wil be able to test trained model
+
