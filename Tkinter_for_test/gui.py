@@ -5,7 +5,7 @@ from PIL import ImageTk, Image
 import numpy
 
 from keras.models import load_model
-model = load_model('trained_model.h5')
+model = load_model('models/trained_model.h5')
 #dictionary to label all traffic signs class.
 classes = { 
     0:'its a cat',
@@ -61,3 +61,4 @@ heading = Label(top, text="CatsVSDogs Classification",pady=20, font=('arial',20,
 heading.configure(background='#CDCDCD',foreground='#364156')
 heading.pack()
 top.mainloop()
+
